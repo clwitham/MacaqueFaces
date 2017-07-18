@@ -35,7 +35,7 @@ imgcount=[imgSet.Count];
 minimg=min(imgcount);
 warning('off','vision:imageSet:atLeastOneOutputEmpty');
 if sum(imgcount>minimg)>0
-    [imgSet1,~]=partition(imgSet,minimg,'method','randomized');
+    [imgSet,~]=partition(imgSet,minimg,'method','randomized');
 end
 
 
@@ -47,7 +47,7 @@ allids=cell(1,length(ids)*minimg);
 
 for M=1:length(ids)
     for N=1:minimg
-        I=imread(imgSet1(M).ImageLocation{N});
+        I=imread(imgSet(M).ImageLocation{N});
         if ndims(I)==3
             I=rgb2gray(I); % if image is RGB then convert to grayscale
         end
