@@ -1,2 +1,2 @@
 # MacaqueFaces
-Face Recogntion Software for Macaque Monkeys
+Facial Recognition Software for Macaque Monkeys
