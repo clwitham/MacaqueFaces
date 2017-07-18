@@ -1,6 +1,8 @@
 Model image set for face recognition containing facial images of 34 individual rhesus macaques (age 3-20, 4 males and 30 females)
 
-Zip file contains 100x100 pixel jpegs of macaque faces sorted by 1) Image quality and 2) Identity.
+Contents:
+1) Zip file contains 100x100 pixel jpegs of macaque faces sorted by 1) Image quality and 2) Identity.
+2) CSV file containing metadata
 
 Image Quality: 
   1) Good: 50 images for each individual, images are in focus with good alignment and contrast and neutral facial expression (34 individuals)
