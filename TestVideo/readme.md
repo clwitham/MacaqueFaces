@@ -12,4 +12,4 @@ Yoyo - sitting on floor by window, frontmost monkey (juvenile)
 
 The video is a high definition (1920x1080) MPEG4 file with a frame rate of 20fps and a bit rate of 4000kbps.
 
-Model file contains the output of MacaqueFaces_train.m. Model trained on five adults and 
+Model file contains the output of MacaqueFaces_train.m. Model trained on five adults and three juveniles (the 6 monkeys listed above + Spice and Yazzoo).
