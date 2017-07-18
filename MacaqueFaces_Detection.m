@@ -13,8 +13,8 @@ Frames=2; % Set number of frames per second to process, setting to 0 will cause 
 Output_Format='jpg'; % outputs images as jpegs; change to 'png' if desired
 
 %% Open Detection Models
-filepath=fullfile(cd,'XMLFiles','MacaqueFrontalFaceModel.xml');
-FaceDetector=vision.CascadeObjectDetector(filepath,'MergeThreshold',Threshold); % assumes models are located in same directory as program files; please change if this is not the case
+filepath=fullfile(cd,'XMLFiles','MacaqueFrontalFaceModel.xml');% assumes models are located in xmlfiles directory; please change if this is not the case
+FaceDetector=vision.CascadeObjectDetector(filepath,'MergeThreshold',Threshold); 
 if flag==2
     filepath=fullfile(cd,'XMLFiles','MacaqueSingleEyeModel.xml');
     EyeDetector=vision.CascadeObjectDetector(filepath,'MergeThreshold',1);
